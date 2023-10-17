@@ -1,13 +1,13 @@
 import './App.css';
-import {Person} from "./components/person/Person";
-import {Character} from "./components/rick_and_morty/Character";
+import {Persons} from "./components/person/Persons";
+import {Characters} from "./components/rick_and_morty/Characters";
 
 
 function App() {
     return (
         <div className="App">
-            <Person/>
-            <Character/>
+            <Persons/>
+            <Characters/>
         </div>
     );
 }

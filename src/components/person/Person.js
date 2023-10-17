@@ -1,24 +1,22 @@
 import React from 'react';
-import {simpsons} from "../../data/data";
 import './Person.modul.css';
 
-const Person = () => {
+const Person = ({simpson}) => {
+    const {photo, name,surname, age, info} =simpson;
     return (
 
         <div>
-            {
-                simpsons.map(simpson => (
+
                     <div className="wrapper">
                         <div>
-                            <img src={simpson.photo} alt=""/>
+                            <img src={photo} alt=""/>
                         </div>
                         <div className='infoWrap'>
-                            <h2>{simpson.name} {simpson.surname}. Age: {simpson.age}</h2>
-                            <p>{simpson.info}</p>
+                            <h2>{name} {surname}. Age: {age}</h2>
+                            <p>{info}</p>
                         </div>
                     </div>
-                ))
-            }
+
         </div>
     );
 };
