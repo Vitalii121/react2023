@@ -1,0 +1,11 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.infoWrap{
+    width: 80%;
+}
+img{
+
+}
