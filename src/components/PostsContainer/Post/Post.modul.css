@@ -1,0 +1,10 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    width: 45%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
