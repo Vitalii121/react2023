@@ -9,7 +9,7 @@
 // https://api.spacexdata.com/v3/launches/
 //     потрібно вивести всі запуски кораблів окрім 2020 року
 // репрезентувати тільки окремі поля (зазначені в скрнішоті в папці)
-import './App.css';
+
 import {Posts} from "./components/PostsContainer/Posts/Posts";
 import {Launches} from "./components/LaunchesContainer/Launches/Launches";
 
