@@ -1,7 +1,7 @@
 
 import './App.css';
-import {UsersContainer} from "./components/UserConteiner/UsersConteiner";
-import {CommentsContainer} from "./components/CommentsConteiner/ComentsConteiner";
+import {UsersContainer} from "./components/UsersContainer/UsersContainer";
+import {CommentsContainer} from "./components/CommentsContainer/CommentsContainer";
 
 function App() {
   return (
