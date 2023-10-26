@@ -1,0 +1,11 @@
+import {PostContainer} from "../components/PostContainer/PostContainer";
+
+const PostPage = () => {
+    return (
+        <div>
+            <PostContainer/>
+        </div>
+    );
+};
+
+export {PostPage};
