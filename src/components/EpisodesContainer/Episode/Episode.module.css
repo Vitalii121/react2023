@@ -1,0 +1,8 @@
+.Episode{
+    border: black solid 1px;
+    width: calc(25% - 3px);
+}
+
+.Episode:hover{
+    background: beige;
+}
