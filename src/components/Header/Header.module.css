@@ -1,0 +1,23 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 30px;
+    background: darkblue;
+    color: aliceblue;
+    height: 70px;
+    align-items: center;
+}
+.Header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.Header a[class='active']{
+    color: bisque;
+}
+
+.LogReg{
+    font-size: 30px;
+    display: flex;
+    gap: 30px;
+}
