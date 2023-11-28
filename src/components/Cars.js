@@ -1,10 +1,19 @@
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
+import {useEffect} from "react";
 
 import {Car} from "./Car";
+import {carService} from "../services";
+import {carActions} from "../redux";
 
 const Cars = () => {
 
-    const {cars} = useSelector(state => state.cars);
+    const {cars,trigger} = useSelector(state => state.cars);
+
+    let dispatch = useDispatch();
+
+    useEffect(() => {
+        carService.getAll().then(({data})=>dispatch(carActions.setCars(data)))
+    }, [trigger, dispatch]);
 
     return (
         <div>
