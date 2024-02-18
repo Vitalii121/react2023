@@ -1,0 +1,9 @@
+.Movie{
+    width: 320px;
+    box-shadow: 10px 5px 5px black;
+    cursor: pointer;
+    text-align: center;
+}
+img{
+    width: 320px;
+}
