@@ -7,6 +7,7 @@ const router = createBrowserRouter([
     {
         path:'', element:<MainLayout/>,children:[
             {path:'/discover/movie', element:<MoviesPage/>},
+
             {path:'/genre/movie/list', element:<GenrePage/>}
         ]
     }

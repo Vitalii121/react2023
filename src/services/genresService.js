@@ -3,7 +3,7 @@ import {urls} from "../constants";
 
 const genresService ={
 
-getAll:()=>axiosService.get(urls.genre)
+getAll:()=>axiosService.get(urls.genre.base)
 }
 
 

@@ -5,8 +5,14 @@ const movies = '/discover/movie';
 const genre = '/genre/movie/list';
 
 const urls = {
-    movies,
-    genre
+    movies:{
+        base:movies,
+        byId:(id)=>`${movies}/${id}`
+},
+genre:{
+    base: genre,
+    byId:(id)=>`${genre}/${id}`
+}
 }
 
 
